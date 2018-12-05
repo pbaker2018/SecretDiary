@@ -9,7 +9,7 @@ This is a project given in my first week at Makers Academy, to help us understan
 
 
 ## Code Example
-Below are two methods from my SecretDiary class. There are more methods than this, but below is just a sample from this class:
+Below is my SecretDiary class:
 ```
 class SecretDiary
 
@@ -40,6 +40,4 @@ class SecretDiary
 
 end
 
-
-end
 ```
