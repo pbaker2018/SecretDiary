@@ -1,7 +1,8 @@
 # Secret Diary
 
 ## What does it do?
-A diary that allows a person to add an entry and get entries, but only then the diary is unlocked. If the diary is locked, it will raise an error.
+This diary starts as 'locked' and will not allow the user to 'add an entry' or 'get entries' until it is 'unlocked.'
+If the user tries to do so while the diary is 'locked', it will raise an error.
 
 
 ## Motivation
