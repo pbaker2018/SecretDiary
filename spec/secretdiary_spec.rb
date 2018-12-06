@@ -1,11 +1,12 @@
 require 'secretdiary'
+require 'padlock'
 
 RSpec.describe SecretDiary do
 
-  let (:diary) { described_class.new}
+  let(:diary) {described_class.new(Padlock.new)}
 
 it 'is locked' do
-  expect(diary.locked?).to eq true
+  expect(diary.padlock.locked?).to eq true
 end
 
 it 'will not allow you to add entries when locked' do
@@ -17,7 +18,7 @@ it 'will not allow you to get entries when locked' do
 end
 
 it 'it allows you to add entries when unlocked' do
-  diary.unlock
+  diary.padlock.unlock
   diary.add_entry("foo")
   expect(diary.get_entries).to eq ["foo"]
 end
