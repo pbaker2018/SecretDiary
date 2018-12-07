@@ -6,7 +6,7 @@ If the user tries to do so while the diary is 'locked', it will raise an error.
 
 
 ## Motivation
-This is a project given in my first week at Makers Academy, to help us understand OOP and TDD.
+This is a project given in my first week at Makers Academy, to help us understand OOP and TDD, and to start putting it in to practise.
 
 
 ## Code
@@ -72,3 +72,6 @@ end
 
 end
 ```
+
+## Adding Cohesion
+I later used 'Cohesion' to create a new class Padlock (see my lib folder), where I put all the lock functionality into there, and passed an instance of Padlock into the initializer for every instance of SecretDiary. I then re-wrote my tests accordingly.
