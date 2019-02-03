@@ -6,7 +6,7 @@ If the user tries to do so while the diary is 'locked', it will raise an error.
 
 
 ## Motivation
-This is a project given in my first week at Makers Academy, to help us understand OOP and TDD, and to start putting it in to practise.
+This is a project was to help me understand OOP and TDD, and to start putting it in to practise.
 
 
 ## Code
